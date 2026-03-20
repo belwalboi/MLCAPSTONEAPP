@@ -1,0 +1,24 @@
+# ML House Price Predictor — Requirements
+# Install: pip install -r requirements.txt
+
+# ── Front-End ──────────────────────────────────
+streamlit>=1.32.0
+
+# ── Back-End ───────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0
+
+# ── Machine Learning ───────────────────────────
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# ── Visualization ──────────────────────────────
+plotly>=5.19.0
+
+# ── HTTP Client (Streamlit → FastAPI) ──────────
+requests>=2.31.0
+
+# ── Utilities ─────────────────────────────────
+python-dotenv>=1.0.0
